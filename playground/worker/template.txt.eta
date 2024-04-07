@@ -1,0 +1,4 @@
+<% if (it.name) 
+{ %>Hello <%= it.name %> from worker!<% }
+else
+{ %>Who are you?<% } %>

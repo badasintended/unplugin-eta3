@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "worker-build":"TARGET=worker vite build",
+    "worker-dev": "wrangler dev",
+    "client-dev": "TARGET=client nodemon -w '../src/**/*.ts' -e .ts -x vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.4",
+    "vite-plugin-inspect": "^0.8.1",
+    "wrangler": "^3.48.0"
+  },
+  "dependencies": {
+    "hono": "^4.2.2"
+  }
+}
