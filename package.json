@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.1",
   "packageManager": "pnpm@8.6.12",
-  "description": "",
+  "description": "Plugin to precompile Eta functions, making it possible to be used in serverless context like Cloudflare Workers",
   "license": "MIT",
   "homepage": "https://github.com/badasintended/unplugin-eta3#readme",
   "repository": {
@@ -124,26 +124,26 @@
   },
   "dependencies": {
     "eta": "^3.4.0",
-    "unplugin": "^1.5.1"
+    "unplugin": "^1.10.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.2.2",
-    "@nuxt/kit": "^3.8.2",
-    "@nuxt/schema": "^3.8.2",
-    "@types/node": "^20.10.3",
-    "bumpp": "^9.2.0",
+    "@antfu/eslint-config": "^2.12.2",
+    "@nuxt/kit": "^3.11.2",
+    "@nuxt/schema": "^3.11.2",
+    "@types/node": "^20.12.5",
+    "bumpp": "^9.4.0",
     "chalk": "^5.3.0",
-    "eslint": "^8.55.0",
-    "esno": "^4.0.0",
+    "eslint": "^8.57.0",
+    "esno": "^4.7.0",
     "fast-glob": "^3.3.2",
-    "nodemon": "^3.0.2",
+    "nodemon": "^3.1.0",
     "rimraf": "^5.0.5",
-    "rollup": "^4.6.1",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4",
+    "rollup": "^4.14.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
     "vitest": "^0.34.6",
-    "webpack": "^5.89.0"
+    "webpack": "^5.91.0"
   },
   "pnpm": {
     "overrides": {
