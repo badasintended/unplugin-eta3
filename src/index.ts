@@ -4,7 +4,7 @@ import { createUnplugin } from "unplugin";
 import type { Options } from "./types";
 
 export const unpluginFactory: UnpluginFactory<Options | undefined> = function (options) {
-  const include = options?.include ?? [/.eta$/];
+  const include = options?.include ?? [/\.eta$/];
   const eta = new Eta(options?.eta);
 
   return {
