@@ -18,7 +18,8 @@
     "vite",
     "webpack",
     "rollup",
-    "transform"
+    "transform",
+    "eta"
   ],
   "exports": {
     ".": {
